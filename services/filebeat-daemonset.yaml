@@ -3,12 +3,12 @@ kind: DaemonSet
 metadata:
   name: filebeat
   labels:
-    app: elk
+    app: filebeat
 spec:
   template:
     metadata:
       labels:
-        app: elk
+        app: filebeat
       name: filebeat
     spec:
       containers:
